@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, #33ccff 0%, #070768 100%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+.leftContainer{
+    width: 30%;
+    font-size: 25px;
+    color: white;
+}
+.loginButton{
+    margin: 80px;
+    padding: 3px 35px;
+    border-radius: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.rightContainer{
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    /* border:2px solid rgb(174, 30, 30) ; */
+    border-top-left-radius: 20% 60%;
+    border-bottom-left-radius: 20% 60%;
+
+}
+form{
+    width:100%;
+    height: 100%;
+    padding: 20px ;
+    /* border: 2px solid black; */
+    
+}
+ .formContainer{
+     /* border: 2px solid blue; */
+     width: 100%;
+     height: 80%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    
+} 
+.leftPartition{
+    /* background-color: #33ccff; */
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+
+}
+.rightPartition{
+    /* background-color: hotpink; */
+    width: 50%;
+    height: 100%;
+
+}
+.form-control{
+    margin: 30px 10px;
+}
+.form-check{
+    display: inline;
+    float: left;
+    margin-left: 19px;
+}
+.registerButton{
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+    padding: 3px 35px;
+    border-radius: 25px;
+    float: right;
+    margin-top: 30px;
+}

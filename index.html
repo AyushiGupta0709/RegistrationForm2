@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftContainer">
+            <h3>Welcome</h3>
+            <h4>To</h4>
+            <h2>Gemini Solution</h2>
+            <button class="loginButton">Login</button>
+
+
+        </div>
+        <div class="rightContainer">
+                
+                    <h2>Apply as a Employee</h2>
+                    <form action="#" onsubmit="return validateForm()">
+                    <div class="formContainer">
+                        <div class="leftPartition">
+                          
+                        <div class="col">
+                        <input type="text" class="form-control " placeholder="First name*" id="firstName" autocomplete="off"pattern="[A-Za-z\s]*$"
+                         required>
+                        </div>
+                        
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name*"  id="lastName"autocomplete="off" pattern="[A-Za-z\s]*$" required>
+                         </div>
+                        <div class="col">
+                        <input type="password" class="form-control" placeholder="Password*" id="password" autocomplete="off" required>
+                        </div>
+                        <div class="col">
+                        <input type="password" class="form-control" id="confirm password"
+                        placeholder="Confirm Password*" autocomplete="off" required>
+                        </div>
+                        
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
+                            <label class="form-check-label" for="male">
+                              male
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="female" value="femlae">
+                            <label class="form-check-label" for="female">
+                              female
+                            </label>
+                          </div>
+                          
+                        
+                        
+                        </div>
+
+
+                        <div class="rightPartition">
+                        <div class="col my-4 m-2">
+                        <input type="email*" class="form-control" placeholder="email" autocomplete="off" id="email" required >
+                        </div>
+                        <div class="col my-4">
+                        <input type="number" class="form-control" placeholder="Phone" autocomplete="off" id="number" pattern="[789][0-9]{9}"
+                         >
+                         </div>
+                         <div class="dropdown ">
+                           <select name="" id="" class="form-control">
+                            <option value="">Please Select your sequirity question</option>
+                            <option value="">Java script</option>
+                            <option value="">Html and css</option>
+                           </select>
+                           
+                          </div>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter your answer">
+                        </div>
+                        <button  type="submit" name="submit" value="submit" class="registerButton">Register
+
+                        </button>
+    
+                        </div>
+
+                    </div>
+                   
+
+                </form>
+
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
